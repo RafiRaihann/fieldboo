@@ -1,0 +1,41 @@
+/* Import Valorant font and other styles if needed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set background color to match Valorant */
+    color: #ffffff; /* Set text color */
+}
+
+header {
+    /* Your header styles */
+}
+
+main.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1e1e1e; /* Set main content background color to match Valorant */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #fff; /* Set heading text color */
+}
+
+.user-details {
+    background-color: #2c2c2c; /* Set user details background color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    /* Your footer styles */
+}

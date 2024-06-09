@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.profile {
+    float: right;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#profile-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#profile-btn:hover {
+    text-decoration: underline;
+}

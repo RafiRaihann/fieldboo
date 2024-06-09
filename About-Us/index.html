@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Website Booking Lapang UPI</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Fieldboo
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jadwal.html">Jadwal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Booking Lapang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About Us</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/images/user1.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Web Designer</span>
+          <span class="card__name">Raka Wibowo</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/images/user2.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Ui Designer</span>
+          <span class="card__name">Ghifarialdhy RN</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/images/user3.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Web Developer</span>
+          <span class="card__name">Rafi Raihan</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="/images/user4.jpg" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Mobile Designer</span>
+          <span class="card__name">Rizky Zain</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit veritatis labore provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="sewa.css" />
+    <!-- CSS -->
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS -->
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="/landing/fontawasome.css" />
+    <!-- FONTAWESOME -->
+
+    <title>Rou - Work Smartly with Endless Possibility</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header style="background-color: #D9D9D9;"> 
+      <div class="container flex-row">
+        <div class="header__logo">
+          <h1><a href="/landing/index.html">FieldBoo</a></h1>
+        </div>
+        <nav>
+          <ul class="header__menu flex-row">
+            <li>
+              <a href="/landing/index.html">Home</a>
+            </li>
+            <li>
+              <a href="/landing/index.html">About Us</a>
+            </li>
+            <li>
+              <a href="/landing/index.html">Service</a>
+            </li>
+            <li>
+              <a href="/landing/index.html">Informasi Lapang</a>
+            </li>
+            <li>
+              <a href="/landing/index.html">Team</a>
+            </li>
+            <li>
+              <a href="/landing/index.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="right flex-center">
+          <a href="#hero" class="btn btn-secondary">Booking</a>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+
+    <!-- FORM -->
+
+    <div class="bf-container">
+        <div class="bf-body">
+            <div class="bf-head">
+                <h1>Booking Form</h1>
+                <p>Silahkan isi data dengan sebenarnya!</p>
+            </div>
+
+            <form class="bf-body-box" action="form.php">
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <h5>Your Name</h5>
+                        <input type="text" name="fname" id="fname" placeholder="Your Name" >
+                    </div>
+                    <div class="bf-col-6">
+                        <h5>Email Address<h5>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                </div>
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <h5>No Telephone<h5>
+                        <input type="number" name="telp" id="telp" placeholder="08123456789" required>
+                    </div>
+                    <div class="bf-col-6">
+                        <h5>Intansi<h5>
+                        <input type="text" name="instansi" id="instansi" placeholder="Cont. BOMA/RPL/TEKKOM" required>
+                    </div>
+                </div>
+                <div class="bf-row">
+                    <div class="bf-col-6">
+                        <h5>Date<h5>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="bf-col-6">
+                        <h5>Time<h5>
+                        <input type="text" name="time" id="time" required>
+                    </div>
+                </div>
+                <div class="bf-row">
+                    <div class="bf-col-12">
+                        <h5>Deskripsi Kegiatan</h5>
+                    <textarea name="desc" id="desc" cols="60" rows="5" placeholder="Deskrpisi Kegiatan" required></textarea>
+                    </div>
+                </div>
+                <div class="bf-row">
+                    <div class="bf-col-3">
+                    <button type="button" class="btn-primary" onclick="openPopup()">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="popup" id="popup">
+            <img src="/assets/404-tick.png" alt="">
+            <h2>Success</h2>
+            <p>Data penyewaan kamu berhasil disimpan!</p>
+            <button type="button" onclick="closePopup()"><a href="/landing/index.html">Back</a></button>
+        </div>
+    </div>
+
+    <!-- FORM -->
+
+      <!-- FONTAWESOME -->
+      <script src="/landing/fontawasome.js"></script>
+      <!-- FONTAWESOME -->
+  
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- AOS -->
+  
+      <!-- SCRIPTS -->
+      <script src="sewa.js"></script>
+      <!-- SCRIPTS -->
+  
+      <script>
+        AOS.init();
+      </script>
+    </body>
+  </html>
